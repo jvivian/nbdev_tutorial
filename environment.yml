@@ -1,0 +1,12 @@
+name: nbdev
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python=3.7
+  - jupyterlab
+  - mamba_gator
+  - pip
+  - pip:
+    - nbdev
+    - jupyterlab_vim
